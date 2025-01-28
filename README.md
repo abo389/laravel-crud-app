@@ -6,13 +6,11 @@ You can check out the live demo of the application here:
 
 [Live Demo](https://your-live-demo-link.com)
 
----
 
 ## 📖 Description
 
 This is a simple CRUD (Create, Read, Update, Delete) application built using **Laravel**, a popular PHP framework. The app allows users to manage data in a user-friendly interface with basic CRUD functionalities.
 
----
 
 ## 🌟 Features
 
@@ -22,7 +20,6 @@ This is a simple CRUD (Create, Read, Update, Delete) application built using **L
 - **Delete**: Remove records from the database.
 - **Form Validation**: Ensure data integrity and proper user input.
 
----
 
 ## 🖥️ Tech Stack
 
@@ -33,7 +30,6 @@ This is a simple CRUD (Create, Read, Update, Delete) application built using **L
 - **[MySQL](https://www.mysql.com/)** - The relational database management system (RDBMS) used for data storage.
 - **[Composer](https://getcomposer.org/)** - Dependency management tool for PHP.
 
----
 
 ## ⚙️ Installation
 
