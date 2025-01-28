@@ -13,7 +13,7 @@
                     <div class="col-md-6">
                         <form action="{{ route("customer.index") }}" method="GET">
                             <div class="input-group mb-3">
-                                <input type="text" value="{{ request()->search }}" name="search" class="form-control" placeholder="Search anything..." aria-describedby="button-addon2">
+                                <input autocomplete="off" type="text" value="{{ request()->search }}" name="search" class="form-control" placeholder="Search anything..." aria-describedby="button-addon2">
                                 <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Search</button>
                             </div>
                         </form>

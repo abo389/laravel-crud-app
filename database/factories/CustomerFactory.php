@@ -18,9 +18,9 @@ class CustomerFactory extends Factory
     {
 
         return [
-            "firstName" => fake()->word(),
-            "lastName" => fake()->word(),
-            "phone" => fake()->numerify('+1 (###) ###-####'),
+            "firstName" => fake()->name(),
+            "lastName" => fake()->name(),
+            "phone" => fake()->numerify('01#########'),
             "email" => fake()->unique()->safeEmail(),
             "bank" => fake()->numerify('##########'),
             "about" => fake()->paragraph()

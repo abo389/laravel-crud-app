@@ -55,7 +55,7 @@
                     <div class="col-md-6 mb-3">
                         <div class="form-group">
                             <label for="">Phone</label>
-                            <input value="{{ old("phone") }}" name="phone" type="phone" class="form-control">
+                            <input autocomplete="off" value="{{ old("phone") }}" name="phone" type="phone" class="form-control">
                             @error('phone')
                                 <div class="text-danger">{{ $message }}</div>
                             @enderror
